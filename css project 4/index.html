@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border: 2px solid blue;
+        }
+        input[type="password"]{
+            border: 2px solid green;
+        }
+        ul> li{
+            color: green;
+        }
+        h1+p{
+            font-weight: bold;
+            color: green
+        }
+        a:hover{
+            color: red;
+        }
+        li:nth-child(2){
+            color: yellow;
+        }
+        div:not(.class1){
+             border: 2px dashed red
+        }
+        .decorated::before{
+            content:"STAR" ;
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 200%;
+            color: orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="text input">
+    <input type="password" placeholder="password">
+    <ul>
+        <li>first</li>
+        <li>second</li>
+    </ul>
+    <h1>home</h1>
+    <p>this is a paragraf</p>
+    <p>this is a paragraf</p>
+    </ul>
+    <a href="#">hover over me</a>
+    <ul>
+        <li>codingal 1</li>
+        <li>codingal 2</li>
+        <li>coding 3</li>
+        <div class="class 1">div 1</div>
+        <div class="class 2">div 2</div>
+        <div class="decorated">content</div>
+        <p>hello my name is aisha.</p>
+    </ul>
+</body>
+</html>
